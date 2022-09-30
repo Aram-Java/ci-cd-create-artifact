@@ -1,9 +1,9 @@
-name: artifact
+name: Artifact
 
 on: [push]
 
 env:
-  MY_ARTIFACT = newartifact
+  MY_ARTIFACT: newartifact
   
 jobs:
   main:
